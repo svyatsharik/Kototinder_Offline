@@ -1,0 +1,9 @@
+targets:
+  $default:
+    builders:
+      drift_dev:
+        generate_for:
+          - lib/data/database/database.dart
+      json_serializable:
+        generate_for:
+          - lib/domain/entities/cat.dart
